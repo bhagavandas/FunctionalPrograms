@@ -13,10 +13,10 @@ public class quadratic {
 		int c=scan.nextInt();
 		double delta = b*b - 4*a*c;
 		System.out.println("Delta : " + delta);
-		double x = (-b + Math.sqrt(delta))/(2*a);
-		double y = (-b - Math.sqrt(delta))/(2*a);
-		System.out.println("Roots of X are : " + x);
-		System.out.println("Roots of X are: "+ y);
+		int x = (int) ((-b + Math.sqrt(delta))/(2*a));
+		int y = (int) ((-b - Math.sqrt(delta))/(2*a));
+		System.out.println("Roots of X are : " + x+" , " +y);
+		
 		
 	}
 
